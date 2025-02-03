@@ -12,6 +12,10 @@ public class Ahorcado {
         String stringPalabraSecreta = scannerPalabraSecreta.nextLine();
         palabraSecreta = stringPalabraSecreta;
 
+        for (int index=0; index <= 100; index++){
+            System.out.println(" ");
+        }
+
         String palabraOculta = ocultarPalabra(stringPalabraSecreta);
         System.out.println("Palabra oculta: " + palabraOculta);
 
