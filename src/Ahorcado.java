@@ -9,7 +9,7 @@ public class Ahorcado {
         Scanner scannerName = new Scanner(System.in);
         Scanner scannerPalabraSecreta = new Scanner(System.in);
 
-        System.out.println("APRETE 'ENTER' PARA COMENZAR.\n SUERTE !!!");
+        System.out.println("BIENVENIDO/A AL JUEGO 'AHORCADO'\nAPRETE 'ENTER' PARA COMENZAR A JUGAR.\n SUERTE !!!");
 
         // inicio de expresión de java para leer entrada de textos de la consola.
         new java.util.Scanner(System.in).nextLine();
@@ -46,7 +46,7 @@ public class Ahorcado {
         // Se llama a la Función 'ocultarPalabra' que se encuentra debajo".
         String palabraOculta = ocultarPalabra(stringPalabraSecreta);
         // Una vez ocultada la palabra, se imprime para solo mostrar los caracteres con '*'.
-        System.out.println("Palabra oculta: " + palabraOculta);
+        System.out.println("\nPalabra oculta: " + palabraOculta);
 
         
         // Variables inicializadas según requerimientos del juego.
@@ -88,12 +88,12 @@ public class Ahorcado {
             if (String.valueOf(letrasAdivinadas).equals(palabraSecreta)) {
                 palabraAdivinada = true;
                 String palabra = palabraSecreta.toUpperCase();
-                System.out.println("\n¡FELICIDADES, \n"+ " " + palabra + " es la palabra secreta !!!");
+                System.out.println("\n-----------------------------------\n¡FELICIDADES, \n'" + palabra + "' es la palabra secreta !!!\n-----------------------------------\n");
             }
         }
         // Si las letras ingresadas son incorrectas(false) y la cantidad de oportunidades es igual a cero, se cierra el juego.
         if (!palabraAdivinada) {
-            System.out.println(" GAME OVER \n¡Qué pena, intente nuevamente!");
+            System.out.println("\n---------------\n GAME OVER \n---------------\n¡Qué pena, intente nuevamente...\n");
         }
 
         /* IMPORTANTE: recuerda que se debe cerrar el llamado de 'Scanner' para que el 
