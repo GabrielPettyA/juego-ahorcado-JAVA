@@ -18,7 +18,7 @@ Tendrá 5 oportunidades para adivinar la palabra, mediante la selección de una
 letra, antes de terminar con sus oportunidades, de no adivinar en este período, 
 el sistema dará por terminado el juego, el mismo le mostrará, en caso de no 
 acertar con su letra, la cantidad de opciones que le queda antes de dar por 
-concluido el juego. Pero en caso de que su letra es la correcta, le ocupará en 
+concluido el juego. Pero en caso de que su letra sea la correcta, le ocupará en 
 el lugar designado dicha letra, según la palabra secreta seleccionada. De 
 finalizar toda la palabra, el sistema lo declarará como ganador mostrándole la 
 palabra secreta adivinada.
@@ -38,13 +38,23 @@ palabra secreta adivinada.
    deseamos mostrar el texto o cursor.
 10. Utilización de métodos: toLowerCase(), toUpperCase() y nextLine()
 11. Clases:  StringBuilder y System.
+12. Expresión de Java: new java.util.Scanner(System.in)
+13. Comando Java: System.getProperty("os.name")
+14. llamando a función 'ocultarPalabra()'.
 
 # EXTRA !!!
 
     Se agrega archivo extra con limpiadores de pantalla en caso de que deseen 
-    utilizarlo de manera voluntaria según lo convenga. El archivo solo se 
-    encuentra a modo de mostrar algunas alternativas para limpiar las
-    pantallas tanto de cmd como terminal de editor de código.
+    utilizarlo de manera voluntaria según le parezca. El archivo solo se 
+    encuentra a modo de ejemplificar algunas alternativas para limpiar las
+    pantallas tanto de cmd, en caso de bajar el código para poder utilizarlo
+    localmente, como también, en la terminal del editor de código.
     Fue agregado a este juego a modo de poder brindar una información extra 
-    para poder utilizar si así lo quicieran. No se encuentra incorporado en 
-    el juego.
+    para poder utilizar si así lo requieren. La función se utiliza para poder 
+    limpiar la terminal local del Visual Studio Code, permitiendo de esta
+    forma, que el jugador que debe adivinar la palabra secreta, no pueda
+    visualizarla una vez que fue escrita.
+    También se agrega archivo 'OcultarPalabra.java'. El mismo muestra como
+    ejemplo, el código para poder ocultar una palabra mediante el reemplazo
+    de la misma por '*'. Dicho método fue empleado en el juego a modo de
+    ejemplificar como se puede usar, adaptándolo a éste.
