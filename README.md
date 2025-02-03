@@ -33,3 +33,12 @@ palabra secreta adivinada.
    deseamos mostrar el texto o cursor.
 10. Utilización de métodos: toLowerCase(), toUpperCase() y nextLine()
 11. Clases:  StringBuilder y System.
+
+# EXTRA !!!
+
+    Se agrega archivo extra con limpiadores de pantalla en caso de que deseen utilizarlo 
+    de manera voluntaria según lo convenga.
+    El archivo solo se encuentra a modo de mostrar algunas alternativas para limpiar las
+    pantallas tanto de cmd como terminal de editor de código.
+    Fue agregado a este juego a modo de poder brindar una información extra para poder 
+    utilizar si así lo quicieran. No se encuentra incorporado en el juego.
